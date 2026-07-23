@@ -1,0 +1,33 @@
+{
+  "ECHWFRP4E": {
+    "Panel": {
+      "Actions": "Actions"
+    },
+    "Group": {
+      "Weapons": "Weapons",
+      "Spells": "Spells",
+      "Prayers": "Prayers",
+      "Traits": "Traits"
+    },
+    "Drawer": {
+      "Title": "Tests",
+      "Characteristics": "Characteristics",
+      "Skills": "Skills",
+      "Value": "Value",
+      "Bonus": "Bonus",
+      "Characteristic": "Characteristic"
+    },
+    "Portrait": {
+      "Wounds": "Wounds",
+      "Advantage": "Advantage"
+    },
+    "Tooltip": {
+      "Damage": "Damage",
+      "Range": "Range",
+      "Target": "Target",
+      "Duration": "Duration",
+      "CastingNumber": "Casting Number",
+      "Total": "Total"
+    }
+  }
+}
