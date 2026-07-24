@@ -1,0 +1,43 @@
+<div>
+  <div class="form-group">
+    <label>{{localize "ECHWFRP4E.PortraitConfig.Spells.Label"}}</label>
+    <div class="form-fields">
+      <select name="flags.enhancedcombathud-wfrp4e.spellVisibility">
+        <option value="all" {{#if (eq flags.enhancedcombathud-wfrp4e.spellVisibility "all")}}selected{{/if}}>
+          {{localize "ECHWFRP4E.PortraitConfig.Spells.All"}}
+        </option>
+        <option value="memorized" {{#if (eq flags.enhancedcombathud-wfrp4e.spellVisibility "memorized")}}selected{{/if}}>
+          {{localize "ECHWFRP4E.PortraitConfig.Spells.Memorized"}}
+        </option>
+      </select>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label>{{localize "ECHWFRP4E.PortraitConfig.Skills.Label"}}</label>
+    <div class="form-fields">
+      <select name="flags.enhancedcombathud-wfrp4e.skillVisibility">
+        <option value="all" {{#if (eq flags.enhancedcombathud-wfrp4e.skillVisibility "all")}}selected{{/if}}>
+          {{localize "ECHWFRP4E.PortraitConfig.Skills.All"}}
+        </option>
+        <option value="basic" {{#if (eq flags.enhancedcombathud-wfrp4e.skillVisibility "basic")}}selected{{/if}}>
+          {{localize "ECHWFRP4E.PortraitConfig.Skills.Basic"}}
+        </option>
+        <option value="advanced" {{#if (eq flags.enhancedcombathud-wfrp4e.skillVisibility "advanced")}}selected{{/if}}>
+          {{localize "ECHWFRP4E.PortraitConfig.Skills.Advanced"}}
+        </option>
+        <option value="trained" {{#if (eq flags.enhancedcombathud-wfrp4e.skillVisibility "trained")}}selected{{/if}}>
+          {{localize "ECHWFRP4E.PortraitConfig.Skills.Trained"}}
+        </option>
+      </select>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label>{{localize "ECHWFRP4E.PortraitConfig.WeaponSets.Label"}}</label>
+    <div class="form-fields">
+      <input type="checkbox" name="flags.enhancedcombathud-wfrp4e.switchEquip" {{checked flags.enhancedcombathud-wfrp4e.switchEquip}}>
+    </div>
+    <p class="hint">{{localize "ECHWFRP4E.PortraitConfig.WeaponSets.Hint"}}</p>
+  </div>
+</div>

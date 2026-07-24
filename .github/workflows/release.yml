@@ -18,7 +18,7 @@ jobs:
         run: test "$(jq -r .version module.json)" = "${GITHUB_REF_NAME}"
 
       - name: Build module archive
-        run: zip -r module.zip module.json lang scripts README.md LICENSE
+        run: zip -r module.zip module.json lang scripts templates README.md LICENSE
 
       - name: Publish release
         env:
