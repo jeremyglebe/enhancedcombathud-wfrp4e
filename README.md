@@ -2,7 +2,7 @@
 
 This package has moved to [Drowsy's WFRP4e Compatibility Box](https://github.com/jeremyglebe/wfrp4e-compatibility-box).
 
-Version 2.0.1 is an intentionally code-free migration release. Updating this legacy package tells
+Version 2.0.2 is an intentionally code-free migration release. Updating this legacy package tells
 Foundry to install and enable Drowsy's WFRP4e Compatibility Box while preserving this package ID for existing
 installations and update checks. The maintained Argon integration now runs exclusively from the new
 module, so the legacy and consolidated implementations cannot both patch Argon.
